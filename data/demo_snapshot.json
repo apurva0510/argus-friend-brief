@@ -1,0 +1,2137 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-02T21:16:55.166480+00:00",
+  "source_label": "Argus read-only SQLite export",
+  "companies": [
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA Corporation",
+      "sector": "AI Capex Benchmarks",
+      "industry": "Semiconductors",
+      "facts": [
+        {
+          "id": "NVDA.E001",
+          "label": "Return 1D",
+          "value": 0.0133582929857277,
+          "display_value": "+1.3%",
+          "as_of": "2026-09-18",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "NVDA.E002",
+          "label": "Return 1W",
+          "value": 0.018232677212606,
+          "display_value": "+1.8%",
+          "as_of": "2026-09-18",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "NVDA.E003",
+          "label": "Return 1M",
+          "value": 0.0227923934684793,
+          "display_value": "+2.3%",
+          "as_of": "2026-09-18",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "NVDA.E004",
+          "label": "Return 3M",
+          "value": 0.0561427290076144,
+          "display_value": "+5.6%",
+          "as_of": "2026-09-18",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "NVDA.E005",
+          "label": "Return Ytd",
+          "value": 0.194584994781419,
+          "display_value": "+19.5%",
+          "as_of": "2026-09-18",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "NVDA.E006",
+          "label": "Rsi 14",
+          "value": 54.3554448804245,
+          "display_value": "54.36",
+          "as_of": "2026-09-18",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "NVDA.E007",
+          "label": "Drawdown 52W",
+          "value": -0.0549840848297,
+          "display_value": "-5.5%",
+          "as_of": "2026-09-18",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "NVDA.E008",
+          "label": "Distance From 50Dma",
+          "value": 0.0383199043306968,
+          "display_value": "+3.8%",
+          "as_of": "2026-09-18",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "NVDA.E009",
+          "label": "Distance From 200Dma",
+          "value": 0.122454641144394,
+          "display_value": "+12.2%",
+          "as_of": "2026-09-18",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "NVDA.E010",
+          "label": "Relative Return Vs Qqq 3M",
+          "value": 0.0809559498331612,
+          "display_value": "+8.1%",
+          "as_of": "2026-09-18",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "NVDA.E011",
+          "label": "Volatility 20D",
+          "value": 0.464520853243497,
+          "display_value": "+46.5%",
+          "as_of": "2026-09-18",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "NVDA.E012",
+          "label": "Opportunity Score",
+          "value": 55.0,
+          "display_value": "55.00",
+          "as_of": "2026-09-18",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "NVDA.E013",
+          "label": "Return 1D",
+          "value": 0.0254324572072668,
+          "display_value": "+2.5%",
+          "as_of": "2026-09-17",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "NVDA.E014",
+          "label": "Return 1W",
+          "value": 0.00448798188679134,
+          "display_value": "+0.4%",
+          "as_of": "2026-09-17",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "NVDA.E015",
+          "label": "Return 1M",
+          "value": -0.00070345159833618,
+          "display_value": "-0.1%",
+          "as_of": "2026-09-17",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "NVDA.E016",
+          "label": "Return 3M",
+          "value": 0.0729804117369732,
+          "display_value": "+7.3%",
+          "as_of": "2026-09-17",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "NVDA.E017",
+          "label": "Return Ytd",
+          "value": 0.178837734935518,
+          "display_value": "+17.9%",
+          "as_of": "2026-09-17",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "NVDA.E018",
+          "label": "Rsi 14",
+          "value": 51.8711994353236,
+          "display_value": "51.87",
+          "as_of": "2026-09-17",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "NVDA.E019",
+          "label": "Drawdown 52W",
+          "value": -0.0674414748351896,
+          "display_value": "-6.7%",
+          "as_of": "2026-09-17",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "NVDA.E020",
+          "label": "Distance From 50Dma",
+          "value": 0.0265235233106031,
+          "display_value": "+2.7%",
+          "as_of": "2026-09-17",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "NVDA.E021",
+          "label": "Distance From 200Dma",
+          "value": 0.10885599017872,
+          "display_value": "+10.9%",
+          "as_of": "2026-09-17",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "NVDA.E022",
+          "label": "Relative Return Vs Qqq 3M",
+          "value": 0.0796268894344598,
+          "display_value": "+8.0%",
+          "as_of": "2026-09-17",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "NVDA.E023",
+          "label": "Volatility 20D",
+          "value": 0.462726776329249,
+          "display_value": "+46.3%",
+          "as_of": "2026-09-17",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "NVDA.E024",
+          "label": "Opportunity Score",
+          "value": 55.0,
+          "display_value": "55.00",
+          "as_of": "2026-09-17",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "NVDA.E025",
+          "label": "Sentiment Proxy 7D",
+          "value": 0.190670499177387,
+          "display_value": "0.19",
+          "as_of": "2026-09-18",
+          "source": "Argus signal_daily",
+          "url": null
+        },
+        {
+          "id": "NVDA.E026",
+          "label": "News Relevance 7D",
+          "value": 0.764641126856941,
+          "display_value": "0.76",
+          "as_of": "2026-09-18",
+          "source": "Argus signal_daily",
+          "url": null
+        },
+        {
+          "id": "NVDA.E027",
+          "label": "Corr Nvda 60D",
+          "value": 1.0,
+          "display_value": "1.00",
+          "as_of": "2026-09-18",
+          "source": "Argus signal_daily",
+          "url": null
+        },
+        {
+          "id": "NVDA.E028",
+          "label": "Corr Hyperscaler 60D",
+          "value": 0.101415676598097,
+          "display_value": "0.10",
+          "as_of": "2026-09-18",
+          "source": "Argus signal_daily",
+          "url": null
+        },
+        {
+          "id": "NVDA.E029",
+          "label": "Earnings Sensitivity",
+          "value": -0.00799447120934371,
+          "display_value": "-0.01",
+          "as_of": "2026-09-18",
+          "source": "Argus signal_daily",
+          "url": null
+        },
+        {
+          "id": "NVDA.E030",
+          "label": "Power Signal",
+          "value": 0.0756789629764234,
+          "display_value": "0.08",
+          "as_of": "2026-09-18",
+          "source": "Argus signal_daily",
+          "url": null
+        },
+        {
+          "id": "NVDA.E031",
+          "label": "Capex Signal",
+          "value": null,
+          "display_value": "Not available",
+          "as_of": "2026-09-18",
+          "source": "Argus signal_daily",
+          "url": null
+        },
+        {
+          "id": "NVDA.E032",
+          "label": "Market Cap",
+          "value": 5367153557504.0,
+          "display_value": "$5.4T",
+          "as_of": "2026-09-18",
+          "source": "Argus fundamentals_snapshot (yfinance)",
+          "url": null
+        },
+        {
+          "id": "NVDA.E033",
+          "label": "Forward Pe",
+          "value": 14.173006,
+          "display_value": "14.2x",
+          "as_of": "2026-09-18",
+          "source": "Argus fundamentals_snapshot (yfinance)",
+          "url": null
+        },
+        {
+          "id": "NVDA.E034",
+          "label": "Price To Sales",
+          "value": 17.715132,
+          "display_value": "17.7x",
+          "as_of": "2026-09-18",
+          "source": "Argus fundamentals_snapshot (yfinance)",
+          "url": null
+        },
+        {
+          "id": "NVDA.E035",
+          "label": "Ev To Sales",
+          "value": 17.37,
+          "display_value": "17.4x",
+          "as_of": "2026-09-18",
+          "source": "Argus fundamentals_snapshot (yfinance)",
+          "url": null
+        },
+        {
+          "id": "NVDA.E036",
+          "label": "Ev To Ebitda",
+          "value": 26.147,
+          "display_value": "26.1x",
+          "as_of": "2026-09-18",
+          "source": "Argus fundamentals_snapshot (yfinance)",
+          "url": null
+        },
+        {
+          "id": "NVDA.E037",
+          "label": "Revenue Growth",
+          "value": 1.059,
+          "display_value": "+105.9%",
+          "as_of": "2026-09-18",
+          "source": "Argus fundamentals_snapshot (yfinance)",
+          "url": null
+        },
+        {
+          "id": "NVDA.E038",
+          "label": "Gross Margin",
+          "value": 0.74674004,
+          "display_value": "+74.7%",
+          "as_of": "2026-09-18",
+          "source": "Argus fundamentals_snapshot (yfinance)",
+          "url": null
+        },
+        {
+          "id": "NVDA.E039",
+          "label": "Operating Margin",
+          "value": 0.66236997,
+          "display_value": "+66.2%",
+          "as_of": "2026-09-18",
+          "source": "Argus fundamentals_snapshot (yfinance)",
+          "url": null
+        },
+        {
+          "id": "NVDA.E040",
+          "label": "Free Cash Flow",
+          "value": 41809874944.0,
+          "display_value": "$41.8B",
+          "as_of": "2026-09-18",
+          "source": "Argus fundamentals_snapshot (yfinance)",
+          "url": null
+        },
+        {
+          "id": "NVDA.E041",
+          "label": "Ev Sales To Growth Company Value",
+          "value": 16.4022662889518,
+          "display_value": "16.40",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "NVDA.E042",
+          "label": "Ev Sales To Growth Peer Median",
+          "value": 32.975974025974,
+          "display_value": "32.98",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "NVDA.E043",
+          "label": "Ev Sales To Growth Premium Discount Pct",
+          "value": -0.50259949028246,
+          "display_value": "-50.3%",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "NVDA.E044",
+          "label": "Ev Sales To Growth Valuation Flag",
+          "value": "cheap",
+          "display_value": "cheap",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "NVDA.E045",
+          "label": "Ev To Ebitda Company Value",
+          "value": 26.147,
+          "display_value": "26.15",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "NVDA.E046",
+          "label": "Ev To Ebitda Peer Median",
+          "value": 18.049,
+          "display_value": "18.05",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "NVDA.E047",
+          "label": "Ev To Ebitda Premium Discount Pct",
+          "value": 0.448667516205884,
+          "display_value": "+44.9%",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "NVDA.E048",
+          "label": "Ev To Ebitda Valuation Flag",
+          "value": "stretched",
+          "display_value": "stretched",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "NVDA.E049",
+          "label": "Ev To Sales Company Value",
+          "value": 17.37,
+          "display_value": "17.37",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "NVDA.E050",
+          "label": "Ev To Sales Peer Median",
+          "value": 8.5035,
+          "display_value": "8.50",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "NVDA.E051",
+          "label": "Ev To Sales Premium Discount Pct",
+          "value": 1.04268830481566,
+          "display_value": "+104.3%",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "NVDA.E052",
+          "label": "Ev To Sales Valuation Flag",
+          "value": "stretched",
+          "display_value": "stretched",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "NVDA.E053",
+          "label": "Forward Pe Company Value",
+          "value": 14.173006,
+          "display_value": "14.17",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "NVDA.E054",
+          "label": "Forward Pe Peer Median",
+          "value": 22.2283,
+          "display_value": "22.23",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "NVDA.E055",
+          "label": "Forward Pe Premium Discount Pct",
+          "value": -0.362389116576616,
+          "display_value": "-36.2%",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "NVDA.E056",
+          "label": "Forward Pe Valuation Flag",
+          "value": "cheap",
+          "display_value": "cheap",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "NVDA.E057",
+          "label": "Price To Sales Company Value",
+          "value": 17.715132,
+          "display_value": "17.72",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "NVDA.E058",
+          "label": "Price To Sales Peer Median",
+          "value": 8.5091535,
+          "display_value": "8.51",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "NVDA.E059",
+          "label": "Price To Sales Premium Discount Pct",
+          "value": 1.08189122455013,
+          "display_value": "+108.2%",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "NVDA.E060",
+          "label": "Price To Sales Valuation Flag",
+          "value": "stretched",
+          "display_value": "stretched",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "NVDA.E061",
+          "label": "Trailing Pe Company Value",
+          "value": 28.064394,
+          "display_value": "28.06",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "NVDA.E062",
+          "label": "Trailing Pe Peer Median",
+          "value": 25.084776,
+          "display_value": "25.08",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "NVDA.E063",
+          "label": "Trailing Pe Premium Discount Pct",
+          "value": 0.118781925738543,
+          "display_value": "+11.9%",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "NVDA.E064",
+          "label": "Trailing Pe Valuation Flag",
+          "value": "stretched",
+          "display_value": "stretched",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "NVDA.E065",
+          "label": "Bull Thesis",
+          "value": "- NVDA is mapped to AI Capex Benchmark (5.0/5), keeping it relevant to the Argus AI infrastructure watch universe.\n- 3M relative return versus QQQ is +8.1%.\n- Revenue growth is +105.9%.\n- Sector-relative valuation screens cheap on Forward P/E, EV/Sales / Growth.\n- Recent catalyst coverage includes 1103 news item(s) and 6 SEC filing(s).",
+          "display_value": "- NVDA is mapped to AI Capex Benchmark (5.0/5), keeping it relevant to the Argus AI infrastructure watch universe.\n- 3M relative return versus QQQ is +8.1%.\n- Revenue growth is +105.9%.\n- Sector-relative valuation screens cheap on Forward P/E, EV/Sales / Growth.\n- Recent catalyst coverage includes 1103 news item(s) and 6 SEC filing(s).",
+          "as_of": "2026-09-21",
+          "source": "Argus deterministic investment_theses",
+          "url": null
+        },
+        {
+          "id": "NVDA.E066",
+          "label": "Bear Thesis",
+          "value": "- Valuation screens stretched versus sector peers on Trailing P/E, Price / Sales, EV / Sales.\n- Current drawdown from the 52-week high is -5.5%.\n- Distance from the 200DMA is +12.2%.\n- EV/Sales is 17.4x, so multiple compression remains a risk.",
+          "display_value": "- Valuation screens stretched versus sector peers on Trailing P/E, Price / Sales, EV / Sales.\n- Current drawdown from the 52-week high is -5.5%.\n- Distance from the 200DMA is +12.2%.\n- EV/Sales is 17.4x, so multiple compression remains a risk.",
+          "as_of": "2026-09-21",
+          "source": "Argus deterministic investment_theses",
+          "url": null
+        },
+        {
+          "id": "NVDA.E067",
+          "label": "Key Kpis",
+          "value": "- Revenue growth and margin trend\n- EV/Sales and forward P/E versus sector peers\n- 3M relative return versus QQQ and NVDA\n- 52-week drawdown, RSI, and 200DMA distance\n- Earnings dates, SEC filings, and high-relevance news catalysts",
+          "display_value": "- Revenue growth and margin trend\n- EV/Sales and forward P/E versus sector peers\n- 3M relative return versus QQQ and NVDA\n- 52-week drawdown, RSI, and 200DMA distance\n- Earnings dates, SEC filings, and high-relevance news catalysts",
+          "as_of": "2026-09-21",
+          "source": "Argus deterministic investment_theses",
+          "url": null
+        },
+        {
+          "id": "NVDA.E068",
+          "label": "Thesis Status",
+          "value": "intact",
+          "display_value": "intact",
+          "as_of": "2026-09-21",
+          "source": "Argus deterministic investment_theses",
+          "url": null
+        },
+        {
+          "id": "NVDA.E069",
+          "label": "Conviction Score",
+          "value": 4,
+          "display_value": "4",
+          "as_of": "2026-09-21",
+          "source": "Argus deterministic investment_theses",
+          "url": null
+        },
+        {
+          "id": "NVDA.E070",
+          "label": "Theme 1",
+          "value": "AI Capex Benchmark (5.0/5)",
+          "display_value": "AI Capex Benchmark (5.0/5)",
+          "as_of": null,
+          "source": "Argus company_theme_exposure",
+          "url": null
+        },
+        {
+          "id": "NVDA.E071",
+          "label": "Headline 1",
+          "value": "Should You Forget Nvidia and Buy These 3 Millionaire-Maker AI Infrastructure Stocks Instead?",
+          "display_value": "Should You Forget Nvidia and Buy These 3 Millionaire-Maker AI Infrastructure Stocks Instead?",
+          "as_of": "2026-09-21 21:25:00.000000",
+          "source": "Yahoo Finance",
+          "url": "https://www.fool.com/investing/2026/09/21/should-you-forget-nvidia-and-buy-these-3-millionai?.tsrc=rss"
+        },
+        {
+          "id": "NVDA.E072",
+          "label": "Headline 2",
+          "value": "Dow Jones Futures: Falling Oil Prices, Yields Spark Market Rally; AMD, Intel, Micron, Nvidia, Sandisk Are Key Movers",
+          "display_value": "Dow Jones Futures: Falling Oil Prices, Yields Spark Market Rally; AMD, Intel, Micron, Nvidia, Sandisk Are Key Movers",
+          "as_of": "2026-09-21 21:13:25.000000",
+          "source": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/m/bc32a5e1-f207-3311-ba0b-143bb01bd032/dow-jones-futures%3A-falling.html?.tsrc=rss"
+        },
+        {
+          "id": "NVDA.E073",
+          "label": "Headline 3",
+          "value": "Stock Market Today: Dow Up, Nasdaq Roars To Record As Micron Does This; AMD Hits New High (Live Coverage)",
+          "display_value": "Stock Market Today: Dow Up, Nasdaq Roars To Record As Micron Does This; AMD Hits New High (Live Coverage)",
+          "as_of": "2026-09-21 20:31:50.000000",
+          "source": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/m/b7ca9b65-19fd-32e7-bad5-f53a1ee49def/stock-market-today%3A-dow-up%2C.html?.tsrc=rss"
+        },
+        {
+          "id": "NVDA.E074",
+          "label": "Headline 4",
+          "value": "NVIDIA Or Micron: Which Gets Paid More Safely For The AI Shortage?",
+          "display_value": "NVIDIA Or Micron: Which Gets Paid More Safely For The AI Shortage?",
+          "as_of": "2026-09-21 20:31:22.000000",
+          "source": "Yahoo Finance",
+          "url": "https://www.trefis.com/articles/616017/nvidia-or-micron-which-gets-paid-more-safely-for-the-ai-shortage/2026-09-21?.tsrc=rss"
+        },
+        {
+          "id": "NVDA.E075",
+          "label": "Headline 5",
+          "value": "Nvidia Stock Can Surge on Trump\u2019s China Talks. Why They Are Crucial.",
+          "display_value": "Nvidia Stock Can Surge on Trump\u2019s China Talks. Why They Are Crucial.",
+          "as_of": "2026-09-21 20:14:00.000000",
+          "source": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/m/a4f80799-1385-3797-8b95-623477a26bf8/nvidia-stock-can-surge-on.html?.tsrc=rss"
+        },
+        {
+          "id": "NVDA.E076",
+          "label": "Filing 1",
+          "value": "8-K",
+          "display_value": "8-K",
+          "as_of": "2026-09-03",
+          "source": "SEC EDGAR via Argus",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000078/0001045810-26-000078-index.htm"
+        },
+        {
+          "id": "NVDA.E077",
+          "label": "Filing 2",
+          "value": "10-Q",
+          "display_value": "10-Q",
+          "as_of": "2026-08-26",
+          "source": "SEC EDGAR via Argus",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/0001045810-26-000075-index.htm"
+        },
+        {
+          "id": "NVDA.E078",
+          "label": "Filing 3",
+          "value": "8-K",
+          "display_value": "8-K",
+          "as_of": "2026-08-26",
+          "source": "SEC EDGAR via Argus",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/0001045810-26-000073-index.htm"
+        }
+      ]
+    },
+    {
+      "symbol": "VRT",
+      "name": "Vertiv Holdings Co",
+      "sector": "Cooling and Data Center Infrastructure",
+      "industry": "Data Center Infrastructure",
+      "facts": [
+        {
+          "id": "VRT.E001",
+          "label": "Return 1D",
+          "value": 0.0327135439015411,
+          "display_value": "+3.3%",
+          "as_of": "2026-09-18",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "VRT.E002",
+          "label": "Return 1W",
+          "value": -0.0295994894836052,
+          "display_value": "-3.0%",
+          "as_of": "2026-09-18",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "VRT.E003",
+          "label": "Return 1M",
+          "value": -0.0442485291833615,
+          "display_value": "-4.4%",
+          "as_of": "2026-09-18",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "VRT.E004",
+          "label": "Return 3M",
+          "value": -0.251009902474698,
+          "display_value": "-25.1%",
+          "as_of": "2026-09-18",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "VRT.E005",
+          "label": "Return Ytd",
+          "value": 0.540413798069416,
+          "display_value": "+54.0%",
+          "as_of": "2026-09-18",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "VRT.E006",
+          "label": "Rsi 14",
+          "value": 45.2067895145651,
+          "display_value": "45.21",
+          "as_of": "2026-09-18",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "VRT.E007",
+          "label": "Drawdown 52W",
+          "value": -0.336833737748951,
+          "display_value": "-33.7%",
+          "as_of": "2026-09-18",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "VRT.E008",
+          "label": "Distance From 50Dma",
+          "value": -0.0810694306853859,
+          "display_value": "-8.1%",
+          "as_of": "2026-09-18",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "VRT.E009",
+          "label": "Distance From 200Dma",
+          "value": -0.0443832331890409,
+          "display_value": "-4.4%",
+          "as_of": "2026-09-18",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "VRT.E010",
+          "label": "Relative Return Vs Qqq 3M",
+          "value": -0.226196681649151,
+          "display_value": "-22.6%",
+          "as_of": "2026-09-18",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "VRT.E011",
+          "label": "Volatility 20D",
+          "value": 0.641638479891532,
+          "display_value": "+64.2%",
+          "as_of": "2026-09-18",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "VRT.E012",
+          "label": "Opportunity Score",
+          "value": 55.0,
+          "display_value": "55.00",
+          "as_of": "2026-09-18",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "VRT.E013",
+          "label": "Return 1D",
+          "value": 0.00868803224275716,
+          "display_value": "+0.9%",
+          "as_of": "2026-09-17",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "VRT.E014",
+          "label": "Return 1W",
+          "value": -0.0265215443837409,
+          "display_value": "-2.7%",
+          "as_of": "2026-09-17",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "VRT.E015",
+          "label": "Return 1M",
+          "value": -0.113710997779893,
+          "display_value": "-11.4%",
+          "as_of": "2026-09-17",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "VRT.E016",
+          "label": "Return 3M",
+          "value": -0.239406674990461,
+          "display_value": "-23.9%",
+          "as_of": "2026-09-17",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "VRT.E017",
+          "label": "Return Ytd",
+          "value": 0.491617697052571,
+          "display_value": "+49.2%",
+          "as_of": "2026-09-17",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "VRT.E018",
+          "label": "Rsi 14",
+          "value": 41.4418566714198,
+          "display_value": "41.44",
+          "as_of": "2026-09-17",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "VRT.E019",
+          "label": "Drawdown 52W",
+          "value": -0.357841033297927,
+          "display_value": "-35.8%",
+          "as_of": "2026-09-17",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "VRT.E020",
+          "label": "Distance From 50Dma",
+          "value": -0.11503408120121,
+          "display_value": "-11.5%",
+          "as_of": "2026-09-17",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "VRT.E021",
+          "label": "Distance From 200Dma",
+          "value": -0.0734066581081437,
+          "display_value": "-7.3%",
+          "as_of": "2026-09-17",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "VRT.E022",
+          "label": "Relative Return Vs Qqq 3M",
+          "value": -0.232760197292974,
+          "display_value": "-23.3%",
+          "as_of": "2026-09-17",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "VRT.E023",
+          "label": "Volatility 20D",
+          "value": 0.631477178549944,
+          "display_value": "+63.1%",
+          "as_of": "2026-09-17",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "VRT.E024",
+          "label": "Opportunity Score",
+          "value": 50.0,
+          "display_value": "50.00",
+          "as_of": "2026-09-17",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "VRT.E025",
+          "label": "Sentiment Proxy 7D",
+          "value": 0.510293533995874,
+          "display_value": "0.51",
+          "as_of": "2026-09-18",
+          "source": "Argus signal_daily",
+          "url": null
+        },
+        {
+          "id": "VRT.E026",
+          "label": "News Relevance 7D",
+          "value": 0.79213280953271,
+          "display_value": "0.79",
+          "as_of": "2026-09-18",
+          "source": "Argus signal_daily",
+          "url": null
+        },
+        {
+          "id": "VRT.E027",
+          "label": "Corr Nvda 60D",
+          "value": 0.520407755164298,
+          "display_value": "0.52",
+          "as_of": "2026-09-18",
+          "source": "Argus signal_daily",
+          "url": null
+        },
+        {
+          "id": "VRT.E028",
+          "label": "Corr Hyperscaler 60D",
+          "value": 0.082993079400981,
+          "display_value": "0.08",
+          "as_of": "2026-09-18",
+          "source": "Argus signal_daily",
+          "url": null
+        },
+        {
+          "id": "VRT.E029",
+          "label": "Earnings Sensitivity",
+          "value": -0.00551340529136615,
+          "display_value": "-0.01",
+          "as_of": "2026-09-18",
+          "source": "Argus signal_daily",
+          "url": null
+        },
+        {
+          "id": "VRT.E030",
+          "label": "Power Signal",
+          "value": 0.0756789629764234,
+          "display_value": "0.08",
+          "as_of": "2026-09-18",
+          "source": "Argus signal_daily",
+          "url": null
+        },
+        {
+          "id": "VRT.E031",
+          "label": "Capex Signal",
+          "value": null,
+          "display_value": "Not available",
+          "as_of": "2026-09-18",
+          "source": "Argus signal_daily",
+          "url": null
+        },
+        {
+          "id": "VRT.E032",
+          "label": "Market Cap",
+          "value": 96012197888.0,
+          "display_value": "$96.0B",
+          "as_of": "2026-09-18",
+          "source": "Argus fundamentals_snapshot (yfinance)",
+          "url": null
+        },
+        {
+          "id": "VRT.E033",
+          "label": "Forward Pe",
+          "value": 27.33832,
+          "display_value": "27.3x",
+          "as_of": "2026-09-18",
+          "source": "Argus fundamentals_snapshot (yfinance)",
+          "url": null
+        },
+        {
+          "id": "VRT.E034",
+          "label": "Price To Sales",
+          "value": 8.363723,
+          "display_value": "8.4x",
+          "as_of": "2026-09-18",
+          "source": "Argus fundamentals_snapshot (yfinance)",
+          "url": null
+        },
+        {
+          "id": "VRT.E035",
+          "label": "Ev To Sales",
+          "value": 8.119,
+          "display_value": "8.1x",
+          "as_of": "2026-09-18",
+          "source": "Argus fundamentals_snapshot (yfinance)",
+          "url": null
+        },
+        {
+          "id": "VRT.E036",
+          "label": "Ev To Ebitda",
+          "value": 34.791,
+          "display_value": "34.8x",
+          "as_of": "2026-09-18",
+          "source": "Argus fundamentals_snapshot (yfinance)",
+          "url": null
+        },
+        {
+          "id": "VRT.E037",
+          "label": "Revenue Growth",
+          "value": 0.241,
+          "display_value": "+24.1%",
+          "as_of": "2026-09-18",
+          "source": "Argus fundamentals_snapshot (yfinance)",
+          "url": null
+        },
+        {
+          "id": "VRT.E038",
+          "label": "Gross Margin",
+          "value": 0.38039002,
+          "display_value": "+38.0%",
+          "as_of": "2026-09-18",
+          "source": "Argus fundamentals_snapshot (yfinance)",
+          "url": null
+        },
+        {
+          "id": "VRT.E039",
+          "label": "Operating Margin",
+          "value": 0.20362,
+          "display_value": "+20.4%",
+          "as_of": "2026-09-18",
+          "source": "Argus fundamentals_snapshot (yfinance)",
+          "url": null
+        },
+        {
+          "id": "VRT.E040",
+          "label": "Free Cash Flow",
+          "value": 2696537600.0,
+          "display_value": "$2.7B",
+          "as_of": "2026-09-18",
+          "source": "Argus fundamentals_snapshot (yfinance)",
+          "url": null
+        },
+        {
+          "id": "VRT.E041",
+          "label": "Ev Sales To Growth Company Value",
+          "value": 33.6887966804979,
+          "display_value": "33.69",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "VRT.E042",
+          "label": "Ev Sales To Growth Peer Median",
+          "value": 40.9716981132075,
+          "display_value": "40.97",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "VRT.E043",
+          "label": "Ev Sales To Growth Premium Discount Pct",
+          "value": -0.177754444362703,
+          "display_value": "-17.8%",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "VRT.E044",
+          "label": "Ev Sales To Growth Valuation Flag",
+          "value": "cheap",
+          "display_value": "cheap",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "VRT.E045",
+          "label": "Ev To Ebitda Company Value",
+          "value": 34.791,
+          "display_value": "34.79",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "VRT.E046",
+          "label": "Ev To Ebitda Peer Median",
+          "value": 21.806,
+          "display_value": "21.81",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "VRT.E047",
+          "label": "Ev To Ebitda Premium Discount Pct",
+          "value": 0.59547830872237,
+          "display_value": "+59.5%",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "VRT.E048",
+          "label": "Ev To Ebitda Valuation Flag",
+          "value": "stretched",
+          "display_value": "stretched",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "VRT.E049",
+          "label": "Ev To Sales Company Value",
+          "value": 8.119,
+          "display_value": "8.12",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "VRT.E050",
+          "label": "Ev To Sales Peer Median",
+          "value": 3.773,
+          "display_value": "3.77",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "VRT.E051",
+          "label": "Ev To Sales Premium Discount Pct",
+          "value": 1.15186853962364,
+          "display_value": "+115.2%",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "VRT.E052",
+          "label": "Ev To Sales Valuation Flag",
+          "value": "stretched",
+          "display_value": "stretched",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "VRT.E053",
+          "label": "Forward Pe Company Value",
+          "value": 27.33832,
+          "display_value": "27.34",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "VRT.E054",
+          "label": "Forward Pe Peer Median",
+          "value": 23.59404,
+          "display_value": "23.59",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "VRT.E055",
+          "label": "Forward Pe Premium Discount Pct",
+          "value": 0.158696009670239,
+          "display_value": "+15.9%",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "VRT.E056",
+          "label": "Forward Pe Valuation Flag",
+          "value": "stretched",
+          "display_value": "stretched",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "VRT.E057",
+          "label": "Price To Sales Company Value",
+          "value": 8.363723,
+          "display_value": "8.36",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "VRT.E058",
+          "label": "Price To Sales Peer Median",
+          "value": 3.4723198,
+          "display_value": "3.47",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "VRT.E059",
+          "label": "Price To Sales Premium Discount Pct",
+          "value": 1.40868453418375,
+          "display_value": "+140.9%",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "VRT.E060",
+          "label": "Price To Sales Valuation Flag",
+          "value": "stretched",
+          "display_value": "stretched",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "VRT.E061",
+          "label": "Trailing Pe Company Value",
+          "value": 56.423077,
+          "display_value": "56.42",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "VRT.E062",
+          "label": "Trailing Pe Peer Median",
+          "value": 38.485714,
+          "display_value": "38.49",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "VRT.E063",
+          "label": "Trailing Pe Premium Discount Pct",
+          "value": 0.46607847784765,
+          "display_value": "+46.6%",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "VRT.E064",
+          "label": "Trailing Pe Valuation Flag",
+          "value": "stretched",
+          "display_value": "stretched",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "VRT.E065",
+          "label": "Bull Thesis",
+          "value": "- VRT is mapped to Cooling and Data Center Infrastructure (4.0/5), keeping it relevant to the Argus AI infrastructure watch universe.\n- 3M relative return versus QQQ is -22.6%.\n- Revenue growth is +24.1%.\n- Sector-relative valuation screens cheap on EV/Sales / Growth.\n- Recent catalyst coverage includes 78 news item(s) and 4 SEC filing(s).",
+          "display_value": "- VRT is mapped to Cooling and Data Center Infrastructure (4.0/5), keeping it relevant to the Argus AI infrastructure watch universe.\n- 3M relative return versus QQQ is -22.6%.\n- Revenue growth is +24.1%.\n- Sector-relative valuation screens cheap on EV/Sales / Growth.\n- Recent catalyst coverage includes 78 news item(s) and 4 SEC filing(s).",
+          "as_of": "2026-09-21",
+          "source": "Argus deterministic investment_theses",
+          "url": null
+        },
+        {
+          "id": "VRT.E066",
+          "label": "Bear Thesis",
+          "value": "- Valuation screens stretched versus sector peers on Trailing P/E, Price / Sales, Forward P/E.\n- Current drawdown from the 52-week high is -33.7%.\n- Distance from the 200DMA is -4.4%.\n- EV/Sales is 8.1x, so multiple compression remains a risk.",
+          "display_value": "- Valuation screens stretched versus sector peers on Trailing P/E, Price / Sales, Forward P/E.\n- Current drawdown from the 52-week high is -33.7%.\n- Distance from the 200DMA is -4.4%.\n- EV/Sales is 8.1x, so multiple compression remains a risk.",
+          "as_of": "2026-09-21",
+          "source": "Argus deterministic investment_theses",
+          "url": null
+        },
+        {
+          "id": "VRT.E067",
+          "label": "Key Kpis",
+          "value": "- Revenue growth and margin trend\n- EV/Sales and forward P/E versus sector peers\n- 3M relative return versus QQQ and NVDA\n- 52-week drawdown, RSI, and 200DMA distance\n- Earnings dates, SEC filings, and high-relevance news catalysts",
+          "display_value": "- Revenue growth and margin trend\n- EV/Sales and forward P/E versus sector peers\n- 3M relative return versus QQQ and NVDA\n- 52-week drawdown, RSI, and 200DMA distance\n- Earnings dates, SEC filings, and high-relevance news catalysts",
+          "as_of": "2026-09-21",
+          "source": "Argus deterministic investment_theses",
+          "url": null
+        },
+        {
+          "id": "VRT.E068",
+          "label": "Thesis Status",
+          "value": "monitoring",
+          "display_value": "monitoring",
+          "as_of": "2026-09-21",
+          "source": "Argus deterministic investment_theses",
+          "url": null
+        },
+        {
+          "id": "VRT.E069",
+          "label": "Conviction Score",
+          "value": 3,
+          "display_value": "3",
+          "as_of": "2026-09-21",
+          "source": "Argus deterministic investment_theses",
+          "url": null
+        },
+        {
+          "id": "VRT.E070",
+          "label": "Theme 1",
+          "value": "Cooling and Data Center Infrastructure (4.0/5)",
+          "display_value": "Cooling and Data Center Infrastructure (4.0/5)",
+          "as_of": null,
+          "source": "Argus company_theme_exposure",
+          "url": null
+        },
+        {
+          "id": "VRT.E071",
+          "label": "Headline 1",
+          "value": "Why Is Vertiv Stock Up Sharply Over The Past Year Yet Well Below Its Peak?",
+          "display_value": "Why Is Vertiv Stock Up Sharply Over The Past Year Yet Well Below Its Peak?",
+          "as_of": "2026-09-21 20:22:48.000000",
+          "source": "Yahoo Finance",
+          "url": "https://www.trefis.com/articles/615990/why-is-vertiv-stock-up-sharply-over-the-past-year-yet-well-below-its-peak/2026-09-21?.tsrc=rss"
+        },
+        {
+          "id": "VRT.E072",
+          "label": "Headline 2",
+          "value": "Beyond NVIDIA: 2 AI Data Center Stocks to Buy for More Upside",
+          "display_value": "Beyond NVIDIA: 2 AI Data Center Stocks to Buy for More Upside",
+          "as_of": "2026-09-21 19:00:00.000000",
+          "source": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/technology/ai/articles/beyond-nvidia-2-ai-data-190000908.html?.tsrc=rss"
+        },
+        {
+          "id": "VRT.E073",
+          "label": "Headline 3",
+          "value": "What Higher Interest Rates Mean for Caterpillar, GE Vernova, and Vertiv",
+          "display_value": "What Higher Interest Rates Mean for Caterpillar, GE Vernova, and Vertiv",
+          "as_of": "2026-09-21 08:55:00.000000",
+          "source": "Yahoo Finance",
+          "url": "https://www.fool.com/investing/2026/09/21/interest-rates-caterpillar-ge-vernova-vertiv?.tsrc=rss"
+        },
+        {
+          "id": "VRT.E074",
+          "label": "Headline 4",
+          "value": "2 Superior AI Infrastructure Stocks to Buy and Hold for 10 Years",
+          "display_value": "2 Superior AI Infrastructure Stocks to Buy and Hold for 10 Years",
+          "as_of": "2026-09-20 20:57:00.000000",
+          "source": "Yahoo Finance",
+          "url": "https://www.fool.com/investing/2026/09/20/2-superior-ai-infrastructure-stocks-to-buy-and-hol?.tsrc=rss"
+        },
+        {
+          "id": "VRT.E075",
+          "label": "Headline 5",
+          "value": "Is Most-Watched Stock Vertiv Holdings Co. (VRT) Worth Betting on Now?",
+          "display_value": "Is Most-Watched Stock Vertiv Holdings Co. (VRT) Worth Betting on Now?",
+          "as_of": "2026-09-18 13:00:07.000000",
+          "source": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/most-watched-stock-vertiv-holdings-130007503.html?.tsrc=rss"
+        },
+        {
+          "id": "VRT.E076",
+          "label": "Filing 1",
+          "value": "8-K",
+          "display_value": "8-K",
+          "as_of": "2026-09-02",
+          "source": "SEC EDGAR via Argus",
+          "url": "https://www.sec.gov/Archives/edgar/data/1674101/000162828026059961/0001628280-26-059961-index.htm"
+        },
+        {
+          "id": "VRT.E077",
+          "label": "Filing 2",
+          "value": "8-K",
+          "display_value": "8-K",
+          "as_of": "2026-09-02",
+          "source": "SEC EDGAR via Argus",
+          "url": "https://www.sec.gov/Archives/edgar/data/1674101/000119312526379306/0001193125-26-379306-index.htm"
+        },
+        {
+          "id": "VRT.E078",
+          "label": "Filing 3",
+          "value": "8-K",
+          "display_value": "8-K",
+          "as_of": "2026-07-29",
+          "source": "SEC EDGAR via Argus",
+          "url": "https://www.sec.gov/Archives/edgar/data/1674101/000162828026050323/0001628280-26-050323-index.htm"
+        }
+      ]
+    },
+    {
+      "symbol": "CEG",
+      "name": "Constellation Energy Corporation",
+      "sector": "Energy, Nuclear, and Utilities",
+      "industry": "Electric Utility",
+      "facts": [
+        {
+          "id": "CEG.E001",
+          "label": "Return 1D",
+          "value": -0.0307837954904138,
+          "display_value": "-3.1%",
+          "as_of": "2026-09-18",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "CEG.E002",
+          "label": "Return 1W",
+          "value": -0.105496025587824,
+          "display_value": "-10.5%",
+          "as_of": "2026-09-18",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "CEG.E003",
+          "label": "Return 1M",
+          "value": -0.070977881463307,
+          "display_value": "-7.1%",
+          "as_of": "2026-09-18",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "CEG.E004",
+          "label": "Return 3M",
+          "value": -0.0691762241577494,
+          "display_value": "-6.9%",
+          "as_of": "2026-09-18",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "CEG.E005",
+          "label": "Return Ytd",
+          "value": -0.275793854804883,
+          "display_value": "-27.6%",
+          "as_of": "2026-09-18",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "CEG.E006",
+          "label": "Rsi 14",
+          "value": 36.4250632082266,
+          "display_value": "36.43",
+          "as_of": "2026-09-18",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "CEG.E007",
+          "label": "Drawdown 52W",
+          "value": -0.365926828058328,
+          "display_value": "-36.6%",
+          "as_of": "2026-09-18",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "CEG.E008",
+          "label": "Distance From 50Dma",
+          "value": -0.0598879735675073,
+          "display_value": "-6.0%",
+          "as_of": "2026-09-18",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "CEG.E009",
+          "label": "Distance From 200Dma",
+          "value": -0.127793131961435,
+          "display_value": "-12.8%",
+          "as_of": "2026-09-18",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "CEG.E010",
+          "label": "Relative Return Vs Qqq 3M",
+          "value": -0.0443630033322026,
+          "display_value": "-4.4%",
+          "as_of": "2026-09-18",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "CEG.E011",
+          "label": "Volatility 20D",
+          "value": 0.407042704715235,
+          "display_value": "+40.7%",
+          "as_of": "2026-09-18",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "CEG.E012",
+          "label": "Opportunity Score",
+          "value": 52.0,
+          "display_value": "52.00",
+          "as_of": "2026-09-18",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "CEG.E013",
+          "label": "Return 1D",
+          "value": 0.0125996571843425,
+          "display_value": "+1.3%",
+          "as_of": "2026-09-17",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "CEG.E014",
+          "label": "Return 1W",
+          "value": -0.0810225314852243,
+          "display_value": "-8.1%",
+          "as_of": "2026-09-17",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "CEG.E015",
+          "label": "Return 1M",
+          "value": -0.0151032454450377,
+          "display_value": "-1.5%",
+          "as_of": "2026-09-17",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "CEG.E016",
+          "label": "Return 3M",
+          "value": -0.0148446607384121,
+          "display_value": "-1.5%",
+          "as_of": "2026-09-17",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "CEG.E017",
+          "label": "Return Ytd",
+          "value": -0.252791955163855,
+          "display_value": "-25.3%",
+          "as_of": "2026-09-17",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "CEG.E018",
+          "label": "Rsi 14",
+          "value": 40.7627066409057,
+          "display_value": "40.76",
+          "as_of": "2026-09-17",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "CEG.E019",
+          "label": "Drawdown 52W",
+          "value": -0.345787690103152,
+          "display_value": "-34.6%",
+          "as_of": "2026-09-17",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "CEG.E020",
+          "label": "Distance From 50Dma",
+          "value": -0.0297166565159313,
+          "display_value": "-3.0%",
+          "as_of": "2026-09-17",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "CEG.E021",
+          "label": "Distance From 200Dma",
+          "value": -0.101670936336283,
+          "display_value": "-10.2%",
+          "as_of": "2026-09-17",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "CEG.E022",
+          "label": "Relative Return Vs Qqq 3M",
+          "value": -0.00819818304092546,
+          "display_value": "-0.8%",
+          "as_of": "2026-09-17",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "CEG.E023",
+          "label": "Volatility 20D",
+          "value": 0.393843317243144,
+          "display_value": "+39.4%",
+          "as_of": "2026-09-17",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "CEG.E024",
+          "label": "Opportunity Score",
+          "value": 55.0,
+          "display_value": "55.00",
+          "as_of": "2026-09-17",
+          "source": "Argus daily_metrics",
+          "url": null
+        },
+        {
+          "id": "CEG.E025",
+          "label": "Sentiment Proxy 7D",
+          "value": 0.153097431204798,
+          "display_value": "0.15",
+          "as_of": "2026-09-18",
+          "source": "Argus signal_daily",
+          "url": null
+        },
+        {
+          "id": "CEG.E026",
+          "label": "News Relevance 7D",
+          "value": 0.829069338077577,
+          "display_value": "0.83",
+          "as_of": "2026-09-18",
+          "source": "Argus signal_daily",
+          "url": null
+        },
+        {
+          "id": "CEG.E027",
+          "label": "Corr Nvda 60D",
+          "value": 0.290493440394386,
+          "display_value": "0.29",
+          "as_of": "2026-09-18",
+          "source": "Argus signal_daily",
+          "url": null
+        },
+        {
+          "id": "CEG.E028",
+          "label": "Corr Hyperscaler 60D",
+          "value": -0.0753004545333976,
+          "display_value": "-0.08",
+          "as_of": "2026-09-18",
+          "source": "Argus signal_daily",
+          "url": null
+        },
+        {
+          "id": "CEG.E029",
+          "label": "Earnings Sensitivity",
+          "value": 0.0033844705619434,
+          "display_value": "0.00",
+          "as_of": "2026-09-18",
+          "source": "Argus signal_daily",
+          "url": null
+        },
+        {
+          "id": "CEG.E030",
+          "label": "Power Signal",
+          "value": 0.0756789629764234,
+          "display_value": "0.08",
+          "as_of": "2026-09-18",
+          "source": "Argus signal_daily",
+          "url": null
+        },
+        {
+          "id": "CEG.E031",
+          "label": "Capex Signal",
+          "value": null,
+          "display_value": "Not available",
+          "as_of": "2026-09-18",
+          "source": "Argus signal_daily",
+          "url": null
+        },
+        {
+          "id": "CEG.E032",
+          "label": "Market Cap",
+          "value": 90245636096.0,
+          "display_value": "$90.2B",
+          "as_of": "2026-09-18",
+          "source": "Argus fundamentals_snapshot (yfinance)",
+          "url": null
+        },
+        {
+          "id": "CEG.E033",
+          "label": "Forward Pe",
+          "value": 19.140306,
+          "display_value": "19.1x",
+          "as_of": "2026-09-18",
+          "source": "Argus fundamentals_snapshot (yfinance)",
+          "url": null
+        },
+        {
+          "id": "CEG.E034",
+          "label": "Price To Sales",
+          "value": 2.8860133,
+          "display_value": "2.9x",
+          "as_of": "2026-09-18",
+          "source": "Argus fundamentals_snapshot (yfinance)",
+          "url": null
+        },
+        {
+          "id": "CEG.E035",
+          "label": "Ev To Sales",
+          "value": 3.756,
+          "display_value": "3.8x",
+          "as_of": "2026-09-18",
+          "source": "Argus fundamentals_snapshot (yfinance)",
+          "url": null
+        },
+        {
+          "id": "CEG.E036",
+          "label": "Ev To Ebitda",
+          "value": 14.771,
+          "display_value": "14.8x",
+          "as_of": "2026-09-18",
+          "source": "Argus fundamentals_snapshot (yfinance)",
+          "url": null
+        },
+        {
+          "id": "CEG.E037",
+          "label": "Revenue Growth",
+          "value": 0.23,
+          "display_value": "+23.0%",
+          "as_of": "2026-09-18",
+          "source": "Argus fundamentals_snapshot (yfinance)",
+          "url": null
+        },
+        {
+          "id": "CEG.E038",
+          "label": "Gross Margin",
+          "value": 0.22107,
+          "display_value": "+22.1%",
+          "as_of": "2026-09-18",
+          "source": "Argus fundamentals_snapshot (yfinance)",
+          "url": null
+        },
+        {
+          "id": "CEG.E039",
+          "label": "Operating Margin",
+          "value": 0.086619996,
+          "display_value": "+8.7%",
+          "as_of": "2026-09-18",
+          "source": "Argus fundamentals_snapshot (yfinance)",
+          "url": null
+        },
+        {
+          "id": "CEG.E040",
+          "label": "Free Cash Flow",
+          "value": -6625124864.0,
+          "display_value": "$-6.6B",
+          "as_of": "2026-09-18",
+          "source": "Argus fundamentals_snapshot (yfinance)",
+          "url": null
+        },
+        {
+          "id": "CEG.E041",
+          "label": "Ev Sales To Growth Company Value",
+          "value": 16.3304347826087,
+          "display_value": "16.33",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "CEG.E042",
+          "label": "Ev Sales To Growth Peer Median",
+          "value": 80.8951612903226,
+          "display_value": "80.90",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "CEG.E043",
+          "label": "Ev Sales To Growth Premium Discount Pct",
+          "value": -0.798128410622722,
+          "display_value": "-79.8%",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "CEG.E044",
+          "label": "Ev Sales To Growth Valuation Flag",
+          "value": "unavailable",
+          "display_value": "unavailable",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "CEG.E045",
+          "label": "Ev To Ebitda Company Value",
+          "value": 14.771,
+          "display_value": "14.77",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "CEG.E046",
+          "label": "Ev To Ebitda Peer Median",
+          "value": 19.729,
+          "display_value": "19.73",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "CEG.E047",
+          "label": "Ev To Ebitda Premium Discount Pct",
+          "value": -0.251305185260277,
+          "display_value": "-25.1%",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "CEG.E048",
+          "label": "Ev To Ebitda Valuation Flag",
+          "value": "neutral",
+          "display_value": "neutral",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "CEG.E049",
+          "label": "Ev To Sales Company Value",
+          "value": 3.756,
+          "display_value": "3.76",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "CEG.E050",
+          "label": "Ev To Sales Peer Median",
+          "value": 10.8475,
+          "display_value": "10.85",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "CEG.E051",
+          "label": "Ev To Sales Premium Discount Pct",
+          "value": -0.653745102558193,
+          "display_value": "-65.4%",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "CEG.E052",
+          "label": "Ev To Sales Valuation Flag",
+          "value": "cheap",
+          "display_value": "cheap",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "CEG.E053",
+          "label": "Forward Pe Company Value",
+          "value": 19.140306,
+          "display_value": "19.14",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "CEG.E054",
+          "label": "Forward Pe Peer Median",
+          "value": 18.30457,
+          "display_value": "18.30",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "CEG.E055",
+          "label": "Forward Pe Premium Discount Pct",
+          "value": 0.0456572320464235,
+          "display_value": "+4.6%",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "CEG.E056",
+          "label": "Forward Pe Valuation Flag",
+          "value": "neutral",
+          "display_value": "neutral",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "CEG.E057",
+          "label": "Price To Sales Company Value",
+          "value": 2.8860133,
+          "display_value": "2.89",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "CEG.E058",
+          "label": "Price To Sales Peer Median",
+          "value": 8.66598535,
+          "display_value": "8.67",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "CEG.E059",
+          "label": "Price To Sales Premium Discount Pct",
+          "value": -0.666972284923145,
+          "display_value": "-66.7%",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "CEG.E060",
+          "label": "Price To Sales Valuation Flag",
+          "value": "cheap",
+          "display_value": "cheap",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "CEG.E061",
+          "label": "Trailing Pe Company Value",
+          "value": 24.9227,
+          "display_value": "24.92",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "CEG.E062",
+          "label": "Trailing Pe Peer Median",
+          "value": 23.721754,
+          "display_value": "23.72",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "CEG.E063",
+          "label": "Trailing Pe Premium Discount Pct",
+          "value": 0.0506263575619239,
+          "display_value": "+5.1%",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "CEG.E064",
+          "label": "Trailing Pe Valuation Flag",
+          "value": "neutral",
+          "display_value": "neutral",
+          "as_of": "2026-09-18",
+          "source": "Argus valuation_peer_snapshot",
+          "url": null
+        },
+        {
+          "id": "CEG.E065",
+          "label": "Bull Thesis",
+          "value": "- CEG is mapped to Energy, Nuclear, and Utilities (4.0/5), keeping it relevant to the Argus AI infrastructure watch universe.\n- 3M relative return versus QQQ is -4.4%.\n- Revenue growth is +23.0%.\n- Sector-relative valuation screens cheap on Price / Sales, EV / Sales.\n- Recent catalyst coverage includes 34 news item(s) and 4 SEC filing(s).",
+          "display_value": "- CEG is mapped to Energy, Nuclear, and Utilities (4.0/5), keeping it relevant to the Argus AI infrastructure watch universe.\n- 3M relative return versus QQQ is -4.4%.\n- Revenue growth is +23.0%.\n- Sector-relative valuation screens cheap on Price / Sales, EV / Sales.\n- Recent catalyst coverage includes 34 news item(s) and 4 SEC filing(s).",
+          "as_of": "2026-09-21",
+          "source": "Argus deterministic investment_theses",
+          "url": null
+        },
+        {
+          "id": "CEG.E066",
+          "label": "Bear Thesis",
+          "value": "- Current drawdown from the 52-week high is -36.6%.\n- Distance from the 200DMA is -12.8%.\n- EV/Sales is 3.8x, so multiple compression remains a risk.",
+          "display_value": "- Current drawdown from the 52-week high is -36.6%.\n- Distance from the 200DMA is -12.8%.\n- EV/Sales is 3.8x, so multiple compression remains a risk.",
+          "as_of": "2026-09-21",
+          "source": "Argus deterministic investment_theses",
+          "url": null
+        },
+        {
+          "id": "CEG.E067",
+          "label": "Key Kpis",
+          "value": "- Revenue growth and margin trend\n- EV/Sales and forward P/E versus sector peers\n- 3M relative return versus QQQ and NVDA\n- 52-week drawdown, RSI, and 200DMA distance\n- Earnings dates, SEC filings, and high-relevance news catalysts",
+          "display_value": "- Revenue growth and margin trend\n- EV/Sales and forward P/E versus sector peers\n- 3M relative return versus QQQ and NVDA\n- 52-week drawdown, RSI, and 200DMA distance\n- Earnings dates, SEC filings, and high-relevance news catalysts",
+          "as_of": "2026-09-21",
+          "source": "Argus deterministic investment_theses",
+          "url": null
+        },
+        {
+          "id": "CEG.E068",
+          "label": "Thesis Status",
+          "value": "intact",
+          "display_value": "intact",
+          "as_of": "2026-09-21",
+          "source": "Argus deterministic investment_theses",
+          "url": null
+        },
+        {
+          "id": "CEG.E069",
+          "label": "Conviction Score",
+          "value": 4,
+          "display_value": "4",
+          "as_of": "2026-09-21",
+          "source": "Argus deterministic investment_theses",
+          "url": null
+        },
+        {
+          "id": "CEG.E070",
+          "label": "Theme 1",
+          "value": "Energy, Nuclear, and Utilities (4.0/5)",
+          "display_value": "Energy, Nuclear, and Utilities (4.0/5)",
+          "as_of": null,
+          "source": "Argus company_theme_exposure",
+          "url": null
+        },
+        {
+          "id": "CEG.E071",
+          "label": "Headline 1",
+          "value": "Fluxnium Secures $7 Million Seed Round to Build a New Domestic Supply of Uranium",
+          "display_value": "Fluxnium Secures $7 Million Seed Round to Build a New Domestic Supply of Uranium",
+          "as_of": "2026-09-21 11:00:00.000000",
+          "source": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/energy/articles/fluxnium-secures-7-million-seed-110000542.html?.tsrc=rss"
+        },
+        {
+          "id": "CEG.E072",
+          "label": "Headline 2",
+          "value": "Constellation Energy Stock Fell 13% Last Week. Analysts Still See 37% Upside From Here.",
+          "display_value": "Constellation Energy Stock Fell 13% Last Week. Analysts Still See 37% Upside From Here.",
+          "as_of": "2026-09-21 07:31:32.000000",
+          "source": "Yahoo Finance",
+          "url": "https://www.tikr.com/blog/constellation-energy-stock-fell-13-last-week-analysts-still-see-37-upside-from-here?ref=yahoofinance&.tsrc=rss"
+        },
+        {
+          "id": "CEG.E073",
+          "label": "Headline 3",
+          "value": "CEG Shares Climb Overnight: This Analyst Sees Nearly 45% Upside From Here",
+          "display_value": "CEG Shares Climb Overnight: This Analyst Sees Nearly 45% Upside From Here",
+          "as_of": "2026-09-21 00:52:22.000000",
+          "source": "Yahoo Finance",
+          "url": "https://stocktwits.com/news-articles/markets/equity/ceg-shares-climb-overnight-this-analyst-sees-nearly-45-upside-from-here/cZMbyARRB42?.tsrc=rss"
+        },
+        {
+          "id": "CEG.E074",
+          "label": "Headline 4",
+          "value": "I Own Constellation for the Nuclear Fleet, Not the AI Headlines. Here's Why That Matters Now.",
+          "display_value": "I Own Constellation for the Nuclear Fleet, Not the AI Headlines. Here's Why That Matters Now.",
+          "as_of": "2026-09-20 18:50:00.000000",
+          "source": "Yahoo Finance",
+          "url": "https://www.fool.com/investing/2026/09/20/i-own-constellation-for-the-nuclear-fleet-not-the?.tsrc=rss"
+        },
+        {
+          "id": "CEG.E075",
+          "label": "Headline 5",
+          "value": "3 Alternative-Energy Stocks That Could Withstand Fed's Rate Hike",
+          "display_value": "3 Alternative-Energy Stocks That Could Withstand Fed's Rate Hike",
+          "as_of": "2026-09-18 13:24:00.000000",
+          "source": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/energy/articles/3-alternative-energy-stocks-could-132400406.html?.tsrc=rss"
+        },
+        {
+          "id": "CEG.E076",
+          "label": "Filing 1",
+          "value": "8-K",
+          "display_value": "8-K",
+          "as_of": "2026-08-06",
+          "source": "SEC EDGAR via Argus",
+          "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000097/0001868275-26-000097-index.htm"
+        },
+        {
+          "id": "CEG.E077",
+          "label": "Filing 2",
+          "value": "10-Q",
+          "display_value": "10-Q",
+          "as_of": "2026-08-06",
+          "source": "SEC EDGAR via Argus",
+          "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/0001868275-26-000104-index.htm"
+        },
+        {
+          "id": "CEG.E078",
+          "label": "Filing 3",
+          "value": "8-K",
+          "display_value": "8-K",
+          "as_of": "2026-08-05",
+          "source": "SEC EDGAR via Argus",
+          "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000089/0001868275-26-000089-index.htm"
+        }
+      ]
+    }
+  ]
+}
