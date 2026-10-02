@@ -41,6 +41,13 @@ attempts, and generic success or failure state. Automatic integrations are disab
 the app does **not** attach prompts, responses, evidence, tickers, URLs, exception messages,
 personal notes, or default PII. With no DSN, tracing is a no-op and the app remains local.
 
+## Development provenance with Entire
+
+The repository includes an Entire configuration and Codex hooks for attributable development
+history. Entire records checkpoints that connect code changes to the agent sessions that
+produced them. Telemetry and automatic checkpoint pushing are disabled, so captured session
+history remains local unless it is deliberately published.
+
 ## Public demo mode
 
 The repository includes saved, citation-validated Gemma examples for NVDA, VRT, and CEG.

@@ -118,6 +118,21 @@ model responses, evidence catalogs, URLs, exception messages, or personal notes.
 `SENTRY_DSN`, it is a no-op and the application remains fully local. This lets me debug the
 agent's behavior without turning the observability tool into another copy of my dad's data.
 
+### Preserving the development decisions with Entire
+
+I enabled Entire for the repository and connected its Codex hooks so the implementation
+history is attributable to the agent session that produced it. Entire checkpoints preserve
+the relationship between a change and the conversation behind it, which is especially useful
+here because several of the most important improvements came from testing real model behavior:
+shortening citation IDs, tightening investment-language safeguards, and limiting Sentry to
+metadata-only traces.
+
+The integration is repository-scoped, telemetry is disabled, and automatic checkpoint pushing
+is off. That keeps the captured history under my control while still providing verifiable
+development provenance. This submission update was made in a fresh Codex session after the
+repository hooks were reviewed and approved, creating the project's first attributable Entire
+checkpoint.
+
 ## Why does open innovation matter?
 
 The most important feature is not that this app has a chat-like interface. It is where the reasoning happens.
@@ -143,3 +158,4 @@ scope decisions, snapshot refresh, safety fixes, local Gemma validation, and bro
 
 - **Best Use of Gemma** — Argus Friend Brief runs Gemma 3 4B locally through Ollama as the core research-translation engine.
 - **Best Use of Sentry Agent Tracing** — metadata-only traces cover local model calls, validation failures, repair attempts, token usage, latency, and generic inference failures.
+- **Best Use of Entire** — repository-scoped Codex hooks connect this change to its development session, preserving attributable implementation history without automatically publishing it.
