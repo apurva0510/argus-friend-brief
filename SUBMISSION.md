@@ -30,7 +30,7 @@ Every factual claim links back to the exact evidence record that supported it. T
 
 **Demo:** `[Add demo link]`
 
-The current demo includes sanitized snapshots for NVIDIA, Vertiv, and Constellation Energy. It can run entirely on a laptop after the model has been downloaded.
+The current demo includes sanitized snapshots for all 53 active companies in Argus, refreshed after the October 2 market close. It can run entirely on a laptop after the model has been downloaded.
 
 <!-- Replace this block after the handoff. Do not invent the quote. -->
 
@@ -120,4 +120,3 @@ A closed API could generate similar prose. Local, open-weight inference made the
 ## Prize categories
 
 - **Best Use of Gemma** — Argus Friend Brief runs Gemma 3 4B locally through Ollama as the core research-translation engine.
-

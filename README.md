@@ -31,8 +31,8 @@ Configuration can be set through environment variables; see `.env.example`.
 
 ## Refresh the demo snapshot
 
-The application ships with a sanitized snapshot. To create a new one from a local Argus
-SQLite database:
+The application ships with a sanitized 53-company snapshot. To create a small snapshot
+from a local Argus SQLite database:
 
 ```bash
 uv run python scripts/export_argus_snapshot.py \
@@ -40,6 +40,19 @@ uv run python scripts/export_argus_snapshot.py \
   --output data/demo_snapshot.json \
   --symbols NVDA VRT CEG
 ```
+
+To export every active company from the production Postgres database without placing a
+credential on the command line:
+
+```bash
+uv run python scripts/export_argus_snapshot.py \
+  --env-file ../argus/.env \
+  --output data/demo_snapshot.json \
+  --all-active
+```
+
+The production connection is placed in a read-only transaction. The env file is read only
+to construct the connection and is never copied into the snapshot.
 
 The exporter deliberately excludes watchlist notes and authentication data. Do not commit
 private notes, credentials, or an Argus database.

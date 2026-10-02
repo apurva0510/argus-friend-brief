@@ -67,7 +67,8 @@ def main() -> None:
 
     snapshot = cached_snapshot(str(SNAPSHOT_PATH))
     symbols = [company.symbol for company in snapshot.companies]
-    symbol = st.selectbox("Company", symbols)
+    default_symbol_index = symbols.index("NVDA") if "NVDA" in symbols else 0
+    symbol = st.selectbox("Company", symbols, index=default_symbol_index)
     explanation_level = st.radio(
         "Explanation style",
         ("Quick", "Plain English", "Research detail"),
