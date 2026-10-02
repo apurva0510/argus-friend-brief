@@ -26,9 +26,14 @@ Every factual claim links back to the exact evidence record that supported it. T
 
 ## Demo
 
-<!-- Add a short video or GIF showing: choose NVDA, select Plain English, generate the brief, and expand two evidence panels. -->
+**Live demo:** [argus-friend-brief.streamlit.app](https://argus-friend-brief.streamlit.app/)
 
-**Demo:** `[Add demo link]`
+**Recorded walkthrough:** [Watch the MP4 on GitHub](https://github.com/apurva0510/argus-friend-brief/blob/main/artifacts/argus-friend-brief-demo.mp4)
+
+The hosted preview includes saved, citation-validated Gemma examples for NVDA, VRT, and
+CEG so it works without a cloud GPU. Those outputs are clearly labeled in the interface.
+Clone the repository and run Ollama locally to generate a fresh brief for any of the 53
+companies.
 
 The current demo includes sanitized snapshots for all 53 active companies in Argus, refreshed after the October 2 market close. It can run entirely on a laptop after the model has been downloaded.
 

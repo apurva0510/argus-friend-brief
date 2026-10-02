@@ -8,6 +8,10 @@ The intended reader is the family member who shares the Argus research workflow 
 does not want to decode every metric, filing, signal, and valuation table. This is a
 research translator—not a trading system or investment adviser.
 
+**Live preview:** [argus-friend-brief.streamlit.app](https://argus-friend-brief.streamlit.app/)
+
+**Video:** [Recorded walkthrough](artifacts/argus-friend-brief-demo.mp4)
+
 ## What makes it different
 
 - Local open-weight inference: the research snapshot stays on the laptop.
