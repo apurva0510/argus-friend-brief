@@ -102,7 +102,10 @@ The next browser test found a subtler issue: Gemma described Argus's internal â€
 
 If a response contains an unknown citation or disallowed language, the app gives the model one repair attempt. If the repaired response still fails, the app displays an error instead of an unsupported brief.
 
-The repository currently has 12 tests covering snapshot lookup, read-only export behavior, structured Ollama requests, citation validation, repair behavior, and the language guard. I also tested the complete flow with the real local model and verified the interface in a browser.
+The repository currently has 20 tests covering snapshot lookup, read-only export behavior,
+structured Ollama requests, citation validation, repair behavior, the language guard, saved
+demo briefs, and privacy-preserving trace metadata. I also tested the complete flow with the
+real local model and verified the interface in a browser.
 
 ### Observing the local agent without uploading its research
 
@@ -129,9 +132,12 @@ A closed API could generate similar prose. Local, open-weight inference made the
 
 ## My agent session
 
-<!-- Save and embed the DevRelay session, or replace this with a direct link. -->
+I curated the build history into a short, secret-scrubbed DevRelay session covering the
+scope decisions, snapshot refresh, safety fixes, local Gemma validation, and browser demo.
 
-`[Add DevRelay agent session]`
+{% agent_session 385 %}
+
+[Open the agent session on DEV](https://dev.to/agent_sessions/building-argus-friend-brief-with-local-gemma-wtfqtx)
 
 ## Prize categories
 
