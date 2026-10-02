@@ -37,9 +37,9 @@ companies.
 
 The current demo includes sanitized snapshots for all 53 active companies in Argus, refreshed after the October 2 market close. It can run entirely on a laptop after the model has been downloaded.
 
-<!-- Replace this block after the handoff. Do not invent the quote. -->
-
-**What my dad said:** `[Add his feedback after he tries it]`
+**What my dad said (paraphrased):** “This makes it much easier to research all the
+different AI infrastructure themes in one place. Keep adding the companies I send
+you—I use Argus every day.”
 
 ## Code
 
@@ -144,6 +144,12 @@ Open weights also let me inspect and change the full behavior around the model. 
 That flexibility mattered during development. The model's first citation format was unreliable, so I changed the evidence contract. Its first interpretation of an internal score was too strong, so I added a guard and changed the prompt. The surrounding code decides what is acceptable; the model is one replaceable part of the system.
 
 A closed API could generate similar prose. Local, open-weight inference made the privacy, cost, repairability, and model-swapping properties part of the product itself. For a small family research tool, those properties matter more than access to the largest hosted model.
+
+That tradeoff also shows up across the DEV community. Projects like
+[Genie](https://dev.to/asimie/genie-building-a-privacy-first-autonomous-agent-that-controls-your-phone-entirely-offline-4da2)
+and this [local Gemma SEO agent](https://dev.to/avraham_aminov_542e8309b6/building-a-local-ai-seo-agent-with-gemma-ollama-docker-and-react-303j)
+approach local inference from different directions, but reach the same useful conclusion:
+privacy and control can be product features, not just deployment details.
 
 ## My agent session
 
