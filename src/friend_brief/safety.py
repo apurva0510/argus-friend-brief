@@ -17,7 +17,9 @@ DISALLOWED_PATTERNS = {
 
 
 def disallowed_language(brief: Brief) -> list[str]:
-    text_blocks = [brief.headline, *brief.limitations]
+    # Limitations may contain explicit disclaimers such as "not an investment
+    # recommendation". Guard the substantive briefing instead of the disclaimer.
+    text_blocks = [brief.headline]
     for section_name in SECTION_NAMES:
         text_blocks.extend(claim.text for claim in getattr(brief, section_name))
     combined = "\n".join(text_blocks)

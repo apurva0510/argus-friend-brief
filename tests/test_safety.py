@@ -22,3 +22,10 @@ def test_investment_direction_language_is_rejected():
     violations = disallowed_language(make_brief("This is a strong investment opportunity."))
 
     assert violations == ["invest"]
+
+
+def test_investment_word_is_allowed_inside_limitation_disclaimer():
+    brief = make_brief("The reported return was positive.")
+    brief.limitations = ["This is not an investment recommendation."]
+
+    assert disallowed_language(brief) == []

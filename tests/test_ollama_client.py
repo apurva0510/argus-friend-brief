@@ -23,7 +23,12 @@ def test_generate_requests_schema_constrained_json(monkeypatch):
         return httpx.Response(
             200,
             request=request,
-            json={"message": {"content": jsonlib.dumps(response_body)}},
+            json={
+                "model": "gemma3:4b",
+                "prompt_eval_count": 120,
+                "eval_count": 80,
+                "message": {"content": jsonlib.dumps(response_body)},
+            },
         )
 
     monkeypatch.setattr(httpx, "post", fake_post)

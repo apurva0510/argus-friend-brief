@@ -99,6 +99,17 @@ If a response contains an unknown citation or disallowed language, the app gives
 
 The repository currently has 12 tests covering snapshot lookup, read-only export behavior, structured Ollama requests, citation validation, repair behavior, and the language guard. I also tested the complete flow with the real local model and verified the interface in a browser.
 
+### Observing the local agent without uploading its research
+
+I added optional Sentry agent tracing around the briefing pipeline, Ollama calls, and both
+validation passes. The traces show model latency, token counts, whether citation or safety
+validation failed, whether the repair path ran, and generic inference failure types.
+
+The instrumentation disables automatic integrations and does not send tickers, prompts,
+model responses, evidence catalogs, URLs, exception messages, or personal notes. Without a
+`SENTRY_DSN`, it is a no-op and the application remains fully local. This lets me debug the
+agent's behavior without turning the observability tool into another copy of my dad's data.
+
 ## Why does open innovation matter?
 
 The most important feature is not that this app has a chat-like interface. It is where the reasoning happens.
@@ -120,3 +131,4 @@ A closed API could generate similar prose. Local, open-weight inference made the
 ## Prize categories
 
 - **Best Use of Gemma** — Argus Friend Brief runs Gemma 3 4B locally through Ollama as the core research-translation engine.
+- **Best Use of Sentry Agent Tracing** — metadata-only traces cover local model calls, validation failures, repair attempts, token usage, latency, and generic inference failures.

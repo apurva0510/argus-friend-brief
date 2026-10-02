@@ -29,6 +29,26 @@ uv run streamlit run app.py
 
 Configuration can be set through environment variables; see `.env.example`.
 
+## Optional Sentry agent tracing
+
+Set `SENTRY_DSN` to send metadata-only operational traces to Sentry. The app records the
+Gemma/Ollama model, token counts, latency, citation and safety validation counts, repair
+attempts, and generic success or failure state. Automatic integrations are disabled, and
+the app does **not** attach prompts, responses, evidence, tickers, URLs, exception messages,
+personal notes, or default PII. With no DSN, tracing is a no-op and the app remains local.
+
+## Public demo mode
+
+The repository includes saved, citation-validated Gemma examples for NVDA, VRT, and CEG.
+They make a hosted preview useful without running a large model on the web server. The page
+labels them as saved examples; live local generation remains available for all 53 companies.
+
+Regenerate the examples from the sanitized snapshot with:
+
+```bash
+uv run python scripts/generate_demo_briefs.py --symbols NVDA VRT CEG
+```
+
 ## Refresh the demo snapshot
 
 The application ships with a sanitized 53-company snapshot. To create a small snapshot

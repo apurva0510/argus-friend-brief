@@ -8,10 +8,15 @@ import streamlit as st
 from friend_brief.briefing import generate_grounded_brief
 from friend_brief.citations import SECTION_NAMES
 from friend_brief.data import company_by_symbol, load_snapshot
+from friend_brief.demo import load_demo_briefs
 from friend_brief.models import Brief, CompanySnapshot
+from friend_brief.observability import init_sentry
 from friend_brief.ollama_client import OllamaClient, OllamaError
 
+init_sentry()
+
 SNAPSHOT_PATH = Path(os.getenv("ARGUS_SNAPSHOT_PATH", "data/demo_snapshot.json"))
+DEMO_BRIEFS_PATH = Path(os.getenv("ARGUS_DEMO_BRIEFS_PATH", "data/demo_briefs.json"))
 OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL", "http://127.0.0.1:11434")
 OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "gemma3:4b")
 SECTION_LABELS = {
@@ -26,6 +31,11 @@ SECTION_LABELS = {
 @st.cache_data
 def cached_snapshot(path: str):
     return load_snapshot(path)
+
+
+@st.cache_data
+def cached_demo_briefs(path: str):
+    return load_demo_briefs(path)
 
 
 def render_claims(brief: Brief, company: CompanySnapshot) -> None:
@@ -66,6 +76,7 @@ def main() -> None:
         st.stop()
 
     snapshot = cached_snapshot(str(SNAPSHOT_PATH))
+    demo_briefs = cached_demo_briefs(str(DEMO_BRIEFS_PATH))
     symbols = [company.symbol for company in snapshot.companies]
     default_symbol_index = symbols.index("NVDA") if "NVDA" in symbols else 0
     symbol = st.selectbox("Company", symbols, index=default_symbol_index)
@@ -83,7 +94,23 @@ def main() -> None:
         f"Model {OLLAMA_MODEL}"
     )
 
-    if st.button("Generate my brief", type="primary", use_container_width=True):
+    live_column, demo_column = st.columns(2)
+    generate_live = live_column.button(
+        "Generate live with Gemma", type="primary", use_container_width=True
+    )
+    view_demo = demo_column.button(
+        "View saved Gemma example",
+        use_container_width=True,
+        disabled=symbol not in demo_briefs,
+        help=(
+            "A pre-generated, citation-validated Gemma result for the public demo."
+            if symbol in demo_briefs
+            else "Saved examples are available for NVDA, VRT, and CEG."
+        ),
+    )
+
+    brief = None
+    if generate_live:
         client = OllamaClient(OLLAMA_BASE_URL, OLLAMA_MODEL)
         if not client.is_available():
             st.error(
@@ -98,6 +125,11 @@ def main() -> None:
             st.error(str(exc))
             st.stop()
 
+    elif view_demo:
+        brief = demo_briefs[symbol]
+        st.caption("Saved public-demo result · generated locally with Gemma 3 4B")
+
+    if brief is not None:
         st.header(brief.headline)
         render_claims(brief, company)
         if brief.limitations:
