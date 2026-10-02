@@ -12,7 +12,8 @@ I built **Argus Friend Brief**, a local AI research translator for my dad.
 
 My dad uses [Argus](https://github.com/apurva0510/argus), a stock-research dashboard I built for our family, every day. It tracks 53 companies across AI infrastructure, semiconductors, power, cooling, networking, and emerging compute. Argus brings prices, technical metrics, peer-relative valuation, news, SEC filings, and bull/bear theses into one place.
 
-That solved the scattered-data problem, but it created another one: a dashboard can show everything and still make the reader do the hard work of connecting it.
+Argus solved the scattered-data problem, but it left my dad with another one. A dashboard
+can show everything and still make you do the hard work of connecting it all.
 
 Argus Friend Brief takes a sanitized snapshot of that research and asks a local Gemma model to explain one company in plain language. The result is organized into five questions:
 
@@ -35,7 +36,9 @@ CEG so it works without a cloud GPU. Those outputs are clearly labeled in the in
 Clone the repository and run Ollama locally to generate a fresh brief for any of the 53
 companies.
 
-The current demo includes sanitized snapshots for all 53 active companies in Argus, refreshed after the October 2 market close. It can run entirely on a laptop after the model has been downloaded.
+The current demo includes sanitized snapshots for all 53 active Argus companies, refreshed
+after the October 2 market close. Once the model is downloaded, the whole app can run on a
+laptop.
 
 **What my dad said (paraphrased):** “This helps me break down the research into terms
 that are much easier to digest, instead of having to navigate a bunch of technical
@@ -47,7 +50,7 @@ dashboards.”
 
 Repository: [github.com/apurva0510/argus-friend-brief](https://github.com/apurva0510/argus-friend-brief)
 
-The project is intentionally small:
+I kept the project intentionally small:
 
 - Streamlit provides the interface.
 - A read-only exporter creates a sanitized JSON snapshot from Argus's local SQLite database.
@@ -55,11 +58,12 @@ The project is intentionally small:
 - Pydantic defines the response schema.
 - Citation and language guards validate the result before it reaches the screen.
 
-The committed demo snapshot means someone can inspect the project without access to my production database or Supabase credentials.
+The committed demo snapshot lets anyone inspect the project without access to my production
+database or Supabase credentials.
 
 ## How I built it
 
-The data path is straightforward:
+The data path is simple:
 
 ```text
 Argus SQLite database
@@ -88,7 +92,9 @@ It deliberately leaves out personal watchlist notes, authentication data, and cr
 
 ### Constrained local generation
 
-The model does not receive the database or an open-ended question. It receives one company's evidence catalog and a Pydantic-derived JSON schema. Temperature is set to zero, and the prompt tells the model to use only the supplied evidence.
+The model never sees the database or an open-ended question. It receives one company's
+evidence catalog and a Pydantic-derived JSON schema. I set the temperature to zero and tell
+Gemma to use only the evidence in that catalog.
 
 Each generated claim must include one to three evidence IDs. The interface uses those IDs to display the underlying values and source dates in expandable evidence panels.
 
@@ -135,21 +141,31 @@ checkpoint.
 
 ## Why does open innovation matter?
 
-The most important feature is not that this app has a chat-like interface. It is where the reasoning happens.
+The part I care about most is where the reasoning happens.
 
-My dad's watchlists and research context do not need to leave his laptop. Once Gemma is downloaded, inference runs locally through Ollama without sending the snapshot to a model provider. There is no per-request fee, API account, or service dependency.
+My dad's watchlists and research context do not need to leave his laptop. After Gemma is
+downloaded, Ollama runs inference locally without sending the snapshot to a model provider.
+There is no per-request fee or model API account to maintain.
 
-Open weights also let me inspect and change the full behavior around the model. I can replace Gemma with another compatible local model, change the context window, tighten the schema, or build different validators without redesigning the application around one vendor's API.
+Open weights also give me control over the system around the model. I can swap Gemma for
+another compatible local model, change the context window, tighten the schema, or add a new
+validator without rebuilding the app around one vendor's API.
 
-That flexibility mattered during development. The model's first citation format was unreliable, so I changed the evidence contract. Its first interpretation of an internal score was too strong, so I added a guard and changed the prompt. The surrounding code decides what is acceptable; the model is one replaceable part of the system.
+That flexibility mattered almost immediately. Gemma struggled with the original citation
+format, so I changed the evidence contract. It also interpreted one internal score too
+strongly, so I tightened the prompt and added a deterministic guard. The surrounding code,
+not the model, decides what is safe enough to show.
 
-A closed API could generate similar prose. Local, open-weight inference made the privacy, cost, repairability, and model-swapping properties part of the product itself. For a small family research tool, those properties matter more than access to the largest hosted model.
+A closed API could produce similar prose. What it would not give this project is the same
+combination of local privacy, zero per-request cost, and control over the inference stack. For
+a family research tool, those qualities matter more than having access to the largest hosted
+model.
 
 That tradeoff also shows up across the DEV community. Projects like
 [Genie](https://dev.to/asimie/genie-building-a-privacy-first-autonomous-agent-that-controls-your-phone-entirely-offline-4da2)
 and this [local Gemma SEO agent](https://dev.to/avraham_aminov_542e8309b6/building-a-local-ai-seo-agent-with-gemma-ollama-docker-and-react-303j)
-approach local inference from different directions, but reach the same useful conclusion:
-privacy and control can be product features, not just deployment details.
+approach local inference from different directions, but make a similar point: privacy and
+control can be part of the product itself.
 
 ## My agent session
 
