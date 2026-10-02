@@ -37,9 +37,9 @@ companies.
 
 The current demo includes sanitized snapshots for all 53 active companies in Argus, refreshed after the October 2 market close. It can run entirely on a laptop after the model has been downloaded.
 
-**What my dad said (paraphrased):** “This makes it much easier to research all the
-different AI infrastructure themes in one place. Keep adding the companies I send
-you—I use Argus every day.”
+**What my dad said (paraphrased):** “This helps me break down the research into terms
+that are much easier to digest, instead of having to navigate a bunch of technical
+dashboards.”
 
 ## Code
 
